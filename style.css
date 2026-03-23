@@ -1,0 +1,55 @@
+body{
+    margin : 0;
+    padding : 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    padding : 50px 0 50px 0;
+    margin : 0;
+    font-size : 42px;
+    
+    color : whitesmoke;
+    text-align : center;
+}
+
+nav{
+    padding : 10px 0 10px 50px;
+}
+a{
+    margin-right : 40px;
+    font-size : 20px;
+    color : white;
+    text-decoration : none;
+}
+
+.main-container{
+    background-color : rgb(104, 113, 184);
+    font-family : Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover {
+    color : rgb(214, 214, 214);
+}
+
+.carousel{
+    border : 1px solid whitesmoke;
+    border-radius : 10px;
+    margin-bottom : 80px;
+}
+
+.carousel img{
+    height : 500px;
+    border-radius : 20px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+
+.fs-4 , h4{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
